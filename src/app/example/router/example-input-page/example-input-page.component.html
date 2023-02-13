@@ -1,0 +1,11 @@
+<main>
+  <button type="button" (click)="addSection()">+sec</button>
+  <app-section-container
+    *ngFor="let section of data; let i =index"
+    [no]="i + 1"
+    [data]="section"
+    [removeable]="data.length > 1"
+    (removeSec)="removeSection(i)"
+    (dataChange)="onChanged()"
+  ></app-section-container>
+</main>

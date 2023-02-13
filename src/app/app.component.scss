@@ -1,0 +1,28 @@
+a {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(0, 0, 200);
+  text-decoration: none;
+  margin: 0px 5px  0px;
+}
+
+a:hover{
+  background-color: rgb(193, 213, 250);
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+ul,li{
+  display: inline;
+}
+
+ul{
+  padding: 0%;
+}
